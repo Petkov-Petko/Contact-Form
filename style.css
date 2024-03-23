@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(119, 223, 223);
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(14, 111, 196, 0.489);
+  text-align: center;
+  gap: 30px;
+ border-radius: 15px;
+  border: none;
+  padding: 17px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+form input {
+    border-radius: 15px;
+    border: none;
+    padding: 7px;
+    padding-left: 11px;
+}
+form textarea {
+    border-radius: 15px;
+    border: none;
+    padding: 7px;
+    padding-left: 11px;
+}
