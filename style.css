@@ -27,10 +27,19 @@ form input {
     border: none;
     padding: 7px;
     padding-left: 11px;
+    outline: none;
+    
 }
 form textarea {
     border-radius: 15px;
     border: none;
     padding: 7px;
     padding-left: 11px;
+    outline: none;
+}
+
+h1 {
+    font-family: monospace;
+    color: rgb(215, 247, 236);
+    text-shadow: 3px 3px 3px black;
 }
