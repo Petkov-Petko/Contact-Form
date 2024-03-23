@@ -43,3 +43,18 @@ h1 {
     color: rgb(215, 247, 236);
     text-shadow: 3px 3px 3px black;
 }
+
+#btn {
+    color: rgba(21, 91, 116, 0.76);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: rgb(179, 173, 167);
+}
+
+#btn:active {
+    color: rgb(247, 251, 250);
+    background-color: rgb(194, 218, 108);
+}
